@@ -38,6 +38,8 @@ public:
 };
 
 class Slideshow : public wxFrame {
+    private:
+        sf::Music music;
 	protected:
         wxArrayString * small_images;
 		wxStaticBitmap * img1;
@@ -58,6 +60,8 @@ class Slideshow : public wxFrame {
         MyPanel * button_panel;
         wxRadioBox * music_toggle;
         wxRadioBox * delay_choice;
+        void PlayMusic();
+        void StopMusic();
         void OnPlay(wxCommandEvent & event);
 		void OnDelayBox(wxCommandEvent & event);
 		void OnMusicBox(wxCommandEvent & event);

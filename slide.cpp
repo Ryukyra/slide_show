@@ -1,12 +1,12 @@
 #include "slide.h"
 
+auto * COPY = new wxArrayString;
 const int FIRST_DELAY = 1000;
 const int SECOND_DELAY = 2000;
 const int THIRD_DELAY = 3000;
-auto * COPY = new wxArrayString;
-int DELAY_CHOICE;
-int MUSIC_CHOICE;
 int TIMER_ID = 235;
+int DELAY_CHOICE;
+int MUSIC_CHOICE = 1;
 
 //Pannello per il controllo della lista di immagini da poter riordinare
 
@@ -79,17 +79,6 @@ void MyPanel::OnUp(wxCommandEvent & event) {
         list_box->Insert(list_box->GetString(i),i-1);
         list_box->Delete(i+1);
     }
-
-    cout << COPY->GetCount() << endl;
-    cout << COPY->Item(0) << endl;
-    cout << COPY->Item(1) << endl;
-    cout << COPY->Item(2) << endl;
-    cout << COPY->Item(3) << endl;
-    cout << COPY->Item(4) << endl;
-    cout << COPY->Item(5) << endl;
-    cout << COPY->Item(6) << endl;
-    cout << COPY->Item(7) << endl;
-    cout << endl;
 
 }
 
@@ -211,9 +200,26 @@ Slideshow::Slideshow(const wxString& title )
 
 //Evento bottone per far partire lo slideshow su nuova finestra
 
+void Slideshow::PlayMusic() {
+    if (!music.openFromFile("/Users/macbookair/CLionProjects/slide_show/audio/music.wav")){
+        std::cout << "Error..." << std::endl;
+    }
+    else {
+        music.setLoop(true);
+        music.setVolume(50);
+        music.play();
+    }
+}
+
+void Slideshow::StopMusic() {
+    music.stop();
+}
+
 void Slideshow::OnPlay(wxCommandEvent & event) {
     NowPlaying * newWindow = new NowPlaying(wxT("Now Playing"));
     newWindow->Show(true);
+    if(MUSIC_CHOICE==0)
+        PlayMusic();
 }
 
 void Slideshow::OnDelayBox(wxCommandEvent &event) {
@@ -222,7 +228,8 @@ void Slideshow::OnDelayBox(wxCommandEvent &event) {
 
 void Slideshow::OnMusicBox(wxCommandEvent &event) {
     MUSIC_CHOICE = this->music_toggle->GetSelection();
-    cout << MUSIC_CHOICE << endl;
+    if(MUSIC_CHOICE==1)
+        StopMusic();
 }
 
 Slideshow::~Slideshow() = default;
@@ -322,6 +329,5 @@ void NowPlaying::OnNextTimer(wxTimerEvent &event) {
         NowPlaying::SetCount(i + 1);
     }
 }
-
 
 NowPlaying::~NowPlaying() = default;

@@ -13,7 +13,6 @@ bool MyApp::OnInit()
     wxImage::AddHandler(new wxPNGHandler);
     Slideshow * slideshow = new Slideshow(wxT("Slideshow"));
     slideshow->Show(true);
-
     return true;
 }
 
