@@ -5,7 +5,7 @@
 		<Option title="slide_show"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/macbookair/CLionProjects/slide_show/cmake-build-debug"/>
@@ -51,8 +51,8 @@
 					<Add option="-D__WXOSX_COCOA__"/>
 					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.0"/>
 					<Add directory="/usr/local/include/wx-3.0"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
@@ -80,8 +80,8 @@
 					<Add option="-D__WXOSX_COCOA__"/>
 					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.0"/>
 					<Add directory="/usr/local/include/wx-3.0"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
@@ -110,6 +110,9 @@
 		</Unit>
 		<Unit filename="/Users/macbookair/CLionProjects/slide_show/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/macbookair/CLionProjects/slide_show/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

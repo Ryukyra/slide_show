@@ -5,6 +5,50 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /Users/macbookair/CLionProjects/slide_show/main.cpp
  /Users/macbookair/CLionProjects/slide_show/main.h
  /Users/macbookair/CLionProjects/slide_show/slide.h
+ /usr/local/include/SFML/Audio.hpp
+ /usr/local/include/SFML/Audio/AlResource.hpp
+ /usr/local/include/SFML/Audio/Export.hpp
+ /usr/local/include/SFML/Audio/InputSoundFile.hpp
+ /usr/local/include/SFML/Audio/Listener.hpp
+ /usr/local/include/SFML/Audio/Music.hpp
+ /usr/local/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/local/include/SFML/Audio/Sound.hpp
+ /usr/local/include/SFML/Audio/SoundBuffer.hpp
+ /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/local/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/local/include/SFML/Audio/SoundFileFactory.inl
+ /usr/local/include/SFML/Audio/SoundFileReader.hpp
+ /usr/local/include/SFML/Audio/SoundFileWriter.hpp
+ /usr/local/include/SFML/Audio/SoundRecorder.hpp
+ /usr/local/include/SFML/Audio/SoundSource.hpp
+ /usr/local/include/SFML/Audio/SoundStream.hpp
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/System.hpp
+ /usr/local/include/SFML/System/Clock.hpp
+ /usr/local/include/SFML/System/Err.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/FileInputStream.hpp
+ /usr/local/include/SFML/System/InputStream.hpp
+ /usr/local/include/SFML/System/Lock.hpp
+ /usr/local/include/SFML/System/MemoryInputStream.hpp
+ /usr/local/include/SFML/System/Mutex.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/Sleep.hpp
+ /usr/local/include/SFML/System/String.hpp
+ /usr/local/include/SFML/System/String.inl
+ /usr/local/include/SFML/System/Thread.hpp
+ /usr/local/include/SFML/System/Thread.inl
+ /usr/local/include/SFML/System/ThreadLocal.hpp
+ /usr/local/include/SFML/System/ThreadLocalPtr.hpp
+ /usr/local/include/SFML/System/ThreadLocalPtr.inl
+ /usr/local/include/SFML/System/Time.hpp
+ /usr/local/include/SFML/System/Utf.hpp
+ /usr/local/include/SFML/System/Utf.inl
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+ /usr/local/include/SFML/System/Vector3.hpp
+ /usr/local/include/SFML/System/Vector3.inl
+ /usr/local/include/dos.h
  /usr/local/include/wx-3.0/wx/accel.h
  /usr/local/include/wx-3.0/wx/access.h
  /usr/local/include/wx-3.0/wx/affinematrix2d.h
@@ -19,22 +63,16 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /usr/local/include/wx-3.0/wx/atomic.h
  /usr/local/include/wx-3.0/wx/beforestd.h
  /usr/local/include/wx-3.0/wx/bitmap.h
- /usr/local/include/wx-3.0/wx/bmpbuttn.h
  /usr/local/include/wx-3.0/wx/brush.h
  /usr/local/include/wx-3.0/wx/buffer.h
  /usr/local/include/wx-3.0/wx/build.h
  /usr/local/include/wx-3.0/wx/button.h
  /usr/local/include/wx-3.0/wx/chartype.h
- /usr/local/include/wx-3.0/wx/checkbox.h
  /usr/local/include/wx-3.0/wx/checkeddelete.h
- /usr/local/include/wx-3.0/wx/checklst.h
  /usr/local/include/wx-3.0/wx/chkconf.h
- /usr/local/include/wx-3.0/wx/choicdlg.h
- /usr/local/include/wx-3.0/wx/choice.h
  /usr/local/include/wx-3.0/wx/clntdata.h
  /usr/local/include/wx-3.0/wx/cmdargs.h
  /usr/local/include/wx-3.0/wx/colour.h
- /usr/local/include/wx-3.0/wx/combobox.h
  /usr/local/include/wx-3.0/wx/compiler.h
  /usr/local/include/wx-3.0/wx/containr.h
  /usr/local/include/wx-3.0/wx/control.h
@@ -43,27 +81,18 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /usr/local/include/wx-3.0/wx/crt.h
  /usr/local/include/wx-3.0/wx/ctrlsub.h
  /usr/local/include/wx-3.0/wx/cursor.h
- /usr/local/include/wx-3.0/wx/dataobj.h
  /usr/local/include/wx-3.0/wx/datetime.h
  /usr/local/include/wx-3.0/wx/dc.h
- /usr/local/include/wx-3.0/wx/dcclient.h
- /usr/local/include/wx-3.0/wx/dcmemory.h
- /usr/local/include/wx-3.0/wx/dcprint.h
- /usr/local/include/wx-3.0/wx/dcscreen.h
  /usr/local/include/wx-3.0/wx/debug.h
  /usr/local/include/wx-3.0/wx/defs.h
  /usr/local/include/wx-3.0/wx/dialog.h
- /usr/local/include/wx-3.0/wx/dirdlg.h
  /usr/local/include/wx-3.0/wx/dlimpexp.h
  /usr/local/include/wx-3.0/wx/dynarray.h
- /usr/local/include/wx-3.0/wx/editlbox.h
  /usr/local/include/wx-3.0/wx/event.h
  /usr/local/include/wx-3.0/wx/eventfilter.h
  /usr/local/include/wx-3.0/wx/except.h
  /usr/local/include/wx-3.0/wx/features.h
  /usr/local/include/wx-3.0/wx/file.h
- /usr/local/include/wx-3.0/wx/filectrl.h
- /usr/local/include/wx-3.0/wx/filedlg.h
  /usr/local/include/wx-3.0/wx/filefn.h
  /usr/local/include/wx-3.0/wx/filename.h
  /usr/local/include/wx-3.0/wx/filesys.h
@@ -71,26 +100,17 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /usr/local/include/wx-3.0/wx/font.h
  /usr/local/include/wx-3.0/wx/fontenc.h
  /usr/local/include/wx-3.0/wx/frame.h
- /usr/local/include/wx-3.0/wx/gauge.h
  /usr/local/include/wx-3.0/wx/gdicmn.h
  /usr/local/include/wx-3.0/wx/gdiobj.h
  /usr/local/include/wx-3.0/wx/generic/accel.h
- /usr/local/include/wx-3.0/wx/generic/choicdgg.h
- /usr/local/include/wx-3.0/wx/generic/dirdlgg.h
- /usr/local/include/wx-3.0/wx/generic/filectrlg.h
- /usr/local/include/wx-3.0/wx/generic/filedlgg.h
- /usr/local/include/wx-3.0/wx/generic/listctrl.h
  /usr/local/include/wx-3.0/wx/generic/logg.h
- /usr/local/include/wx-3.0/wx/generic/msgdlgg.h
  /usr/local/include/wx-3.0/wx/generic/panelg.h
  /usr/local/include/wx-3.0/wx/generic/region.h
- /usr/local/include/wx-3.0/wx/generic/scrolwin.h
  /usr/local/include/wx-3.0/wx/generic/statbmpg.h
  /usr/local/include/wx-3.0/wx/generic/statusbr.h
  /usr/local/include/wx-3.0/wx/generic/textdlgg.h
  /usr/local/include/wx-3.0/wx/geometry.h
  /usr/local/include/wx-3.0/wx/graphics.h
- /usr/local/include/wx-3.0/wx/hash.h
  /usr/local/include/wx-3.0/wx/hashmap.h
  /usr/local/include/wx-3.0/wx/icon.h
  /usr/local/include/wx-3.0/wx/iconbndl.h
@@ -113,18 +133,12 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /usr/local/include/wx-3.0/wx/ioswrap.h
  /usr/local/include/wx-3.0/wx/kbdstate.h
  /usr/local/include/wx-3.0/wx/language.h
- /usr/local/include/wx-3.0/wx/layout.h
  /usr/local/include/wx-3.0/wx/list.h
- /usr/local/include/wx-3.0/wx/listbase.h
  /usr/local/include/wx-3.0/wx/listbox.h
- /usr/local/include/wx-3.0/wx/listctrl.h
  /usr/local/include/wx-3.0/wx/log.h
  /usr/local/include/wx-3.0/wx/longlong.h
  /usr/local/include/wx-3.0/wx/math.h
- /usr/local/include/wx-3.0/wx/mdi.h
  /usr/local/include/wx-3.0/wx/memory.h
- /usr/local/include/wx-3.0/wx/menu.h
- /usr/local/include/wx-3.0/wx/menuitem.h
  /usr/local/include/wx-3.0/wx/meta/convertible.h
  /usr/local/include/wx-3.0/wx/meta/if.h
  /usr/local/include/wx-3.0/wx/meta/implicitconversion.h
@@ -132,9 +146,7 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /usr/local/include/wx-3.0/wx/meta/movable.h
  /usr/local/include/wx-3.0/wx/meta/pod.h
  /usr/local/include/wx-3.0/wx/meta/removeref.h
- /usr/local/include/wx-3.0/wx/module.h
  /usr/local/include/wx-3.0/wx/mousestate.h
- /usr/local/include/wx-3.0/wx/msgdlg.h
  /usr/local/include/wx-3.0/wx/msgout.h
  /usr/local/include/wx-3.0/wx/nonownedwnd.h
  /usr/local/include/wx-3.0/wx/object.h
@@ -142,51 +154,31 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /usr/local/include/wx-3.0/wx/osx/anybutton.h
  /usr/local/include/wx-3.0/wx/osx/app.h
  /usr/local/include/wx-3.0/wx/osx/bitmap.h
- /usr/local/include/wx-3.0/wx/osx/bmpbuttn.h
  /usr/local/include/wx-3.0/wx/osx/brush.h
  /usr/local/include/wx-3.0/wx/osx/button.h
  /usr/local/include/wx-3.0/wx/osx/carbon/chkconf.h
  /usr/local/include/wx-3.0/wx/osx/carbon/region.h
  /usr/local/include/wx-3.0/wx/osx/carbon/statbmp.h
- /usr/local/include/wx-3.0/wx/osx/checkbox.h
- /usr/local/include/wx-3.0/wx/osx/checklst.h
  /usr/local/include/wx-3.0/wx/osx/chkconf.h
- /usr/local/include/wx-3.0/wx/osx/choice.h
  /usr/local/include/wx-3.0/wx/osx/cocoa/chkconf.h
  /usr/local/include/wx-3.0/wx/osx/colour.h
- /usr/local/include/wx-3.0/wx/osx/combobox.h
  /usr/local/include/wx-3.0/wx/osx/control.h
  /usr/local/include/wx-3.0/wx/osx/core/cfref.h
  /usr/local/include/wx-3.0/wx/osx/core/colour.h
  /usr/local/include/wx-3.0/wx/osx/cursor.h
- /usr/local/include/wx-3.0/wx/osx/dataform.h
- /usr/local/include/wx-3.0/wx/osx/dataobj.h
- /usr/local/include/wx-3.0/wx/osx/dataobj2.h
  /usr/local/include/wx-3.0/wx/osx/dialog.h
- /usr/local/include/wx-3.0/wx/osx/dirdlg.h
- /usr/local/include/wx-3.0/wx/osx/filedlg.h
  /usr/local/include/wx-3.0/wx/osx/font.h
  /usr/local/include/wx-3.0/wx/osx/frame.h
- /usr/local/include/wx-3.0/wx/osx/gauge.h
  /usr/local/include/wx-3.0/wx/osx/icon.h
  /usr/local/include/wx-3.0/wx/osx/imaglist.h
  /usr/local/include/wx-3.0/wx/osx/listbox.h
- /usr/local/include/wx-3.0/wx/osx/listctrl.h
- /usr/local/include/wx-3.0/wx/osx/mdi.h
- /usr/local/include/wx-3.0/wx/osx/menu.h
- /usr/local/include/wx-3.0/wx/osx/menuitem.h
- /usr/local/include/wx-3.0/wx/osx/msgdlg.h
  /usr/local/include/wx-3.0/wx/osx/nonownedwnd.h
  /usr/local/include/wx-3.0/wx/osx/palette.h
  /usr/local/include/wx-3.0/wx/osx/pen.h
  /usr/local/include/wx-3.0/wx/osx/radiobox.h
- /usr/local/include/wx-3.0/wx/osx/radiobut.h
  /usr/local/include/wx-3.0/wx/osx/region.h
- /usr/local/include/wx-3.0/wx/osx/scrolbar.h
- /usr/local/include/wx-3.0/wx/osx/slider.h
  /usr/local/include/wx-3.0/wx/osx/statbmp.h
  /usr/local/include/wx-3.0/wx/osx/statbox.h
- /usr/local/include/wx-3.0/wx/osx/stattext.h
  /usr/local/include/wx-3.0/wx/osx/statusbr.h
  /usr/local/include/wx-3.0/wx/osx/textctrl.h
  /usr/local/include/wx-3.0/wx/osx/textentry.h
@@ -199,22 +191,16 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /usr/local/include/wx-3.0/wx/platform.h
  /usr/local/include/wx-3.0/wx/platinfo.h
  /usr/local/include/wx-3.0/wx/radiobox.h
- /usr/local/include/wx-3.0/wx/radiobut.h
  /usr/local/include/wx-3.0/wx/region.h
  /usr/local/include/wx-3.0/wx/rtti.h
  /usr/local/include/wx-3.0/wx/scopedptr.h
  /usr/local/include/wx-3.0/wx/scopeguard.h
- /usr/local/include/wx-3.0/wx/scrolbar.h
- /usr/local/include/wx-3.0/wx/scrolwin.h
  /usr/local/include/wx-3.0/wx/settings.h
  /usr/local/include/wx-3.0/wx/sharedptr.h
  /usr/local/include/wx-3.0/wx/sizer.h
- /usr/local/include/wx-3.0/wx/slider.h
  /usr/local/include/wx-3.0/wx/statbmp.h
  /usr/local/include/wx-3.0/wx/statbox.h
- /usr/local/include/wx-3.0/wx/stattext.h
  /usr/local/include/wx-3.0/wx/statusbr.h
- /usr/local/include/wx-3.0/wx/stockitem.h
  /usr/local/include/wx-3.0/wx/stopwatch.h
  /usr/local/include/wx-3.0/wx/strconv.h
  /usr/local/include/wx-3.0/wx/stream.h
@@ -250,7 +236,6 @@ CMakeFiles/slide_show.dir/main.cpp.o
  /usr/local/include/wx-3.0/wx/window.h
  /usr/local/include/wx-3.0/wx/windowid.h
  /usr/local/include/wx-3.0/wx/wrapsizer.h
- /usr/local/include/wx-3.0/wx/wx.h
  /usr/local/include/wx-3.0/wx/wxcrt.h
  /usr/local/include/wx-3.0/wx/wxcrtbase.h
  /usr/local/include/wx-3.0/wx/wxcrtvararg.h
@@ -266,6 +251,50 @@ CMakeFiles/slide_show.dir/main.cpp.o
 CMakeFiles/slide_show.dir/slide.cpp.o
  /Users/macbookair/CLionProjects/slide_show/slide.cpp
  /Users/macbookair/CLionProjects/slide_show/slide.h
+ /usr/local/include/SFML/Audio.hpp
+ /usr/local/include/SFML/Audio/AlResource.hpp
+ /usr/local/include/SFML/Audio/Export.hpp
+ /usr/local/include/SFML/Audio/InputSoundFile.hpp
+ /usr/local/include/SFML/Audio/Listener.hpp
+ /usr/local/include/SFML/Audio/Music.hpp
+ /usr/local/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/local/include/SFML/Audio/Sound.hpp
+ /usr/local/include/SFML/Audio/SoundBuffer.hpp
+ /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/local/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/local/include/SFML/Audio/SoundFileFactory.inl
+ /usr/local/include/SFML/Audio/SoundFileReader.hpp
+ /usr/local/include/SFML/Audio/SoundFileWriter.hpp
+ /usr/local/include/SFML/Audio/SoundRecorder.hpp
+ /usr/local/include/SFML/Audio/SoundSource.hpp
+ /usr/local/include/SFML/Audio/SoundStream.hpp
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/System.hpp
+ /usr/local/include/SFML/System/Clock.hpp
+ /usr/local/include/SFML/System/Err.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/FileInputStream.hpp
+ /usr/local/include/SFML/System/InputStream.hpp
+ /usr/local/include/SFML/System/Lock.hpp
+ /usr/local/include/SFML/System/MemoryInputStream.hpp
+ /usr/local/include/SFML/System/Mutex.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/Sleep.hpp
+ /usr/local/include/SFML/System/String.hpp
+ /usr/local/include/SFML/System/String.inl
+ /usr/local/include/SFML/System/Thread.hpp
+ /usr/local/include/SFML/System/Thread.inl
+ /usr/local/include/SFML/System/ThreadLocal.hpp
+ /usr/local/include/SFML/System/ThreadLocalPtr.hpp
+ /usr/local/include/SFML/System/ThreadLocalPtr.inl
+ /usr/local/include/SFML/System/Time.hpp
+ /usr/local/include/SFML/System/Utf.hpp
+ /usr/local/include/SFML/System/Utf.inl
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+ /usr/local/include/SFML/System/Vector3.hpp
+ /usr/local/include/SFML/System/Vector3.inl
+ /usr/local/include/dos.h
  /usr/local/include/wx-3.0/wx/accel.h
  /usr/local/include/wx-3.0/wx/access.h
  /usr/local/include/wx-3.0/wx/affinematrix2d.h
@@ -302,7 +331,6 @@ CMakeFiles/slide_show.dir/slide.cpp.o
  /usr/local/include/wx-3.0/wx/dialog.h
  /usr/local/include/wx-3.0/wx/dlimpexp.h
  /usr/local/include/wx-3.0/wx/dynarray.h
- /usr/local/include/wx-3.0/wx/editlbox.h
  /usr/local/include/wx-3.0/wx/event.h
  /usr/local/include/wx-3.0/wx/except.h
  /usr/local/include/wx-3.0/wx/features.h

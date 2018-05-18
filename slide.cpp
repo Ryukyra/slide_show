@@ -1,19 +1,11 @@
 #include "slide.h"
 
-#define one "/Users/macbookair/CLionProjects/slide_show/numbered/img_1.jpg"
-#define two "/Users/macbookair/CLionProjects/slide_show/numbered/img_2.jpg"
-#define three "/Users/macbookair/CLionProjects/slide_show/numbered/img_3.jpg"
-#define four "/Users/macbookair/CLionProjects/slide_show/numbered/img_4.jpg"
-#define five "/Users/macbookair/CLionProjects/slide_show/numbered/img_5.jpg"
-#define six "/Users/macbookair/CLionProjects/slide_show/numbered/img_6.jpg"
-#define seven "/Users/macbookair/CLionProjects/slide_show/numbered/img_7.jpg"
-#define eight "/Users/macbookair/CLionProjects/slide_show/numbered/img_8.jpg"
-
 const int FIRST_DELAY = 1000;
 const int SECOND_DELAY = 2000;
 const int THIRD_DELAY = 3000;
 auto * COPY = new wxArrayString;
-int CHOICE;
+int DELAY_CHOICE;
+int MUSIC_CHOICE;
 int TIMER_ID = 235;
 
 //Pannello per il controllo della lista di immagini da poter riordinare
@@ -28,25 +20,42 @@ MyPanel::MyPanel(wxPanel * parent)
     up_button = new wxButton(this, wxID_UP, wxT("Move Up"));
     down_button = new wxButton(this, wxID_DOWN, wxT("Move Down"));
 
-    list_box->Append(one);
-    list_box->Append(two);
-    list_box->Append(three);
-    list_box->Append(four);
-    list_box->Append(five);
-    list_box->Append(six);
-    list_box->Append(seven);
-    list_box->Append(eight);
+    list_box->Append("Image 1");
+    list_box->Append("Image 2");
+    list_box->Append("Image 3");
+    list_box->Append("Image 4");
+    list_box->Append("Image 5");
+    list_box->Append("Image 6");
+    list_box->Append("Image 7");
+    list_box->Append("Image 8");
 
     list_box->SetSelection(0);
 
-    COPY->Add(list_box->GetString(0));
-    COPY->Add(list_box->GetString(1));
-    COPY->Add(list_box->GetString(2));
-    COPY->Add(list_box->GetString(3));
-    COPY->Add(list_box->GetString(4));
-    COPY->Add(list_box->GetString(5));
-    COPY->Add(list_box->GetString(6));
-    COPY->Add(list_box->GetString(7));
+    wxString one = list_box->GetString(0);
+    one.Replace("Image 1", "/Users/macbookair/CLionProjects/slide_show/numbered/img_1.jpg");
+    wxString two = list_box->GetString(1);
+    two.Replace("Image 2", "/Users/macbookair/CLionProjects/slide_show/numbered/img_2.jpg");
+    wxString three = list_box->GetString(2);
+    three.Replace("Image 3", "/Users/macbookair/CLionProjects/slide_show/numbered/img_3.jpg");
+    wxString four = list_box->GetString(3);
+    four.Replace("Image 4", "/Users/macbookair/CLionProjects/slide_show/numbered/img_4.jpg");
+    wxString five = list_box->GetString(4);
+    five.Replace("Image 5", "/Users/macbookair/CLionProjects/slide_show/numbered/img_5.jpg");
+    wxString six = list_box->GetString(5);
+    six.Replace("Image 6", "/Users/macbookair/CLionProjects/slide_show/numbered/img_6.jpg");
+    wxString seven = list_box->GetString(6);
+    seven.Replace("Image 7", "/Users/macbookair/CLionProjects/slide_show/numbered/img_7.jpg");
+    wxString eight = list_box->GetString(7);
+    eight.Replace("Image 8", "/Users/macbookair/CLionProjects/slide_show/numbered/img_8.jpg");
+
+    COPY->Add(one);
+    COPY->Add(two);
+    COPY->Add(three);
+    COPY->Add(four);
+    COPY->Add(five);
+    COPY->Add(six);
+    COPY->Add(seven);
+    COPY->Add(eight);
 
     Connect(wxID_UP, wxEVT_COMMAND_BUTTON_CLICKED,
             wxCommandEventHandler(MyPanel::OnUp));
@@ -65,20 +74,32 @@ MyPanel::MyPanel(wxPanel * parent)
 void MyPanel::OnUp(wxCommandEvent & event) {
     int i = list_box->GetSelection();
     if (i > 0 ) {
+        COPY->Insert(COPY->Item(i+1), i-1);
+        COPY->RemoveAt(i+1);
         list_box->Insert(list_box->GetString(i),i-1);
         list_box->Delete(i+1);
-        COPY->Insert(list_box->GetString(i-1),i-1);
-        COPY->RemoveAt(i+1, 1);
     }
+
+    cout << COPY->GetCount() << endl;
+    cout << COPY->Item(0) << endl;
+    cout << COPY->Item(1) << endl;
+    cout << COPY->Item(2) << endl;
+    cout << COPY->Item(3) << endl;
+    cout << COPY->Item(4) << endl;
+    cout << COPY->Item(5) << endl;
+    cout << COPY->Item(6) << endl;
+    cout << COPY->Item(7) << endl;
+    cout << endl;
+
 }
 
 void MyPanel::OnDown(wxCommandEvent & event) {
     int i = list_box->GetSelection();
     if (i < list_box->GetCount()-1) {
+        COPY->Insert(COPY->Item(i), i+2);
+        COPY->RemoveAt(i);
         list_box->Insert(list_box->GetString(i),i+2);
         list_box->Delete(i);
-        COPY->Insert(list_box->GetString(i+1),i+2);
-        COPY->RemoveAt(i);
     }
 }
 
@@ -151,8 +172,8 @@ Slideshow::Slideshow(const wxString& title )
 
 	wxString music_toggleChoices[] = { wxT("On"), wxT("Off") };
 	int music_toggleNChoices = sizeof( music_toggleChoices ) / sizeof( wxString );
-	music_toggle = new wxRadioBox( SecondarySizer->GetStaticBox(), wxID_ANY, wxT("Toggle music:"), wxDefaultPosition, wxDefaultSize, music_toggleNChoices, music_toggleChoices, 1, wxRA_SPECIFY_COLS );
-	music_toggle->SetSelection( 0 );
+	music_toggle = new wxRadioBox( SecondarySizer->GetStaticBox(), wxID_CONVERT, wxT("Toggle music:"), wxDefaultPosition, wxDefaultSize, music_toggleNChoices, music_toggleChoices, 1, wxRA_SPECIFY_COLS );
+	music_toggle->SetSelection( 1 );
 	ControlSizer->Add( music_toggle, 0, wxTOP, 5 );
 
     play_slideshow = new wxButton( SecondarySizer->GetStaticBox(), wxID_EXECUTE, wxT("  START  "));
@@ -172,7 +193,9 @@ Slideshow::Slideshow(const wxString& title )
     Connect(wxID_EXECUTE, wxEVT_COMMAND_BUTTON_CLICKED,
             wxCommandEventHandler(Slideshow::OnPlay));
     Connect(wxID_FIND, wxEVT_RADIOBOX,
-            wxCommandEventHandler(Slideshow::OnRadioBox));
+            wxCommandEventHandler(Slideshow::OnDelayBox));
+    Connect(wxID_CONVERT, wxEVT_RADIOBOX,
+            wxCommandEventHandler(Slideshow::OnMusicBox));
 
     panel->SetSizer(hbox);
     ImgSizer->Add(panel);
@@ -193,8 +216,13 @@ void Slideshow::OnPlay(wxCommandEvent & event) {
     newWindow->Show(true);
 }
 
-void Slideshow::OnRadioBox(wxCommandEvent & event) {
-    CHOICE = this->delay_choice->GetSelection();
+void Slideshow::OnDelayBox(wxCommandEvent &event) {
+    DELAY_CHOICE = this->delay_choice->GetSelection();
+}
+
+void Slideshow::OnMusicBox(wxCommandEvent &event) {
+    MUSIC_CHOICE = this->music_toggle->GetSelection();
+    cout << MUSIC_CHOICE << endl;
 }
 
 Slideshow::~Slideshow() = default;
@@ -204,11 +232,11 @@ Slideshow::~Slideshow() = default;
 NowPlaying::NowPlaying(const wxString &title)
         : wxFrame(nullptr, wxID_ANY, wxT("Now Playing"), wxDefaultPosition, wxSize(670, 580), wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL, wxT("Now Playing")), timer(this, TIMER_ID) {
 
-    if(CHOICE==0)
+    if(DELAY_CHOICE==0)
         timer.Start(FIRST_DELAY);
-    if(CHOICE==1)
+    if(DELAY_CHOICE==1)
         timer.Start(SECOND_DELAY);
-    if(CHOICE==2)
+    if(DELAY_CHOICE==2)
         timer.Start(THIRD_DELAY);
 
     this->SetSizeHints( wxSize( 670,580 ), wxSize( 670,580 ) );

@@ -1,10 +1,8 @@
 #ifndef __NONAME_H__
 #define __NONAME_H__
 
-#include <stdio.h>
-#include <chrono>
-#include <thread>
-#include <functional>
+#include <SFML/Audio.hpp>
+#include <regex>
 #include <wx/textdlg.h>
 #include <wx/artprov.h>
 #include <wx/xrc/xmlres.h>
@@ -22,25 +20,21 @@
 #include <wx/sizer.h>
 #include <wx/statbox.h>
 #include <wx/frame.h>
-#include <wx/editlbox.h>
 #include <wx/listbox.h>
 #include <wx/button.h>
 #include <wx/timer.h>
-#include <audiere.h>
 
 using namespace std;
 
 class MyPanel : public wxPanel {
 public:
     explicit MyPanel(wxPanel * parent);
-
     void OnUp(wxCommandEvent & event);
     void OnDown(wxCommandEvent & event);
 
     wxListBox * list_box;
     wxButton * up_button;
     wxButton * down_button;
-
 };
 
 class Slideshow : public wxFrame {
@@ -56,16 +50,17 @@ class Slideshow : public wxFrame {
 		wxStaticBitmap * img8;
 		wxStaticBitmap * delay_img;
 		wxStaticBitmap * music_img;
-		wxRadioBox * music_toggle;
         wxButton * play_slideshow;
 
 	public:
 		explicit Slideshow(const wxString & title);
         wxListBox * listbox;
         MyPanel * button_panel;
+        wxRadioBox * music_toggle;
         wxRadioBox * delay_choice;
         void OnPlay(wxCommandEvent & event);
-		void OnRadioBox(wxCommandEvent & event);
+		void OnDelayBox(wxCommandEvent & event);
+		void OnMusicBox(wxCommandEvent & event);
 		~Slideshow();
 	
 };

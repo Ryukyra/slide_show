@@ -4,8 +4,8 @@
 
 #ifndef SLIDE_SHOW_MAIN_H
 #define SLIDE_SHOW_MAIN_H
-
-#include <wx/wx.h>
+#include "slide.h"
+#include <wx/app.h>
 
 class MyApp : public wxApp {
 public:

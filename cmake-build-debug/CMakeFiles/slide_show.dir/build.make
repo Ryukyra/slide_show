@@ -116,6 +116,11 @@ slide_show_EXTERNAL_OBJECTS =
 slide_show: CMakeFiles/slide_show.dir/slide.cpp.o
 slide_show: CMakeFiles/slide_show.dir/main.cpp.o
 slide_show: CMakeFiles/slide_show.dir/build.make
+slide_show: /usr/local/lib/libsfml-system.dylib
+slide_show: /usr/local/lib/libsfml-window.dylib
+slide_show: /usr/local/lib/libsfml-graphics.dylib
+slide_show: /usr/local/lib/libsfml-network.dylib
+slide_show: /usr/local/lib/libsfml-audio.dylib
 slide_show: CMakeFiles/slide_show.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable slide_show"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slide_show.dir/link.txt --verbose=$(VERBOSE)
