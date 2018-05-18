@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/macbookair/CLionProjects/slide_show/main.cpp" "/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles/slide_show.dir/main.cpp.o"
-  "/Users/macbookair/CLionProjects/slide_show/slide.cpp" "/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles/slide_show.dir/slide.cpp.o"
+  "/Users/macbookair/CLionProjects/slide_show/Launch.cpp" "/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles/slide_show.dir/Launch.cpp.o"
+  "/Users/macbookair/CLionProjects/slide_show/Slideshow.cpp" "/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles/slide_show.dir/Slideshow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

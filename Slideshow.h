@@ -1,28 +1,7 @@
-#ifndef __NONAME_H__
-#define __NONAME_H__
-
 #include <SFML/Audio.hpp>
-#include <regex>
-#include <wx/textdlg.h>
-#include <wx/artprov.h>
-#include <wx/xrc/xmlres.h>
-#include <wx/bitmap.h>
-#include <wx/image.h>
-#include <wx/icon.h>
-#include <wx/statbmp.h>
-#include <wx/gdicmn.h>
-#include <wx/font.h>
-#include <wx/colour.h>
-#include <wx/settings.h>
-#include <wx/string.h>
+#include <wx/wx.h>
 #include <wx/wrapsizer.h>
-#include <wx/radiobox.h>
-#include <wx/sizer.h>
-#include <wx/statbox.h>
-#include <wx/frame.h>
-#include <wx/listbox.h>
-#include <wx/button.h>
-#include <wx/timer.h>
+#include "Constants.h"
 
 using namespace std;
 
@@ -87,7 +66,3 @@ public:
     void OnNextTimer(wxTimerEvent & event);
     ~NowPlaying();
 };
-
-const int ID_LISTBOX = 5;
-
-#endif //__NONAME_H__

@@ -57,64 +57,64 @@ include CMakeFiles/slide_show.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/slide_show.dir/flags.make
 
-CMakeFiles/slide_show.dir/slide.cpp.o: CMakeFiles/slide_show.dir/flags.make
-CMakeFiles/slide_show.dir/slide.cpp.o: ../slide.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slide_show.dir/slide.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slide_show.dir/slide.cpp.o -c /Users/macbookair/CLionProjects/slide_show/slide.cpp
+CMakeFiles/slide_show.dir/Slideshow.cpp.o: CMakeFiles/slide_show.dir/flags.make
+CMakeFiles/slide_show.dir/Slideshow.cpp.o: ../Slideshow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slide_show.dir/Slideshow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slide_show.dir/Slideshow.cpp.o -c /Users/macbookair/CLionProjects/slide_show/Slideshow.cpp
 
-CMakeFiles/slide_show.dir/slide.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slide_show.dir/slide.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookair/CLionProjects/slide_show/slide.cpp > CMakeFiles/slide_show.dir/slide.cpp.i
+CMakeFiles/slide_show.dir/Slideshow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slide_show.dir/Slideshow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookair/CLionProjects/slide_show/Slideshow.cpp > CMakeFiles/slide_show.dir/Slideshow.cpp.i
 
-CMakeFiles/slide_show.dir/slide.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slide_show.dir/slide.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookair/CLionProjects/slide_show/slide.cpp -o CMakeFiles/slide_show.dir/slide.cpp.s
+CMakeFiles/slide_show.dir/Slideshow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slide_show.dir/Slideshow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookair/CLionProjects/slide_show/Slideshow.cpp -o CMakeFiles/slide_show.dir/Slideshow.cpp.s
 
-CMakeFiles/slide_show.dir/slide.cpp.o.requires:
+CMakeFiles/slide_show.dir/Slideshow.cpp.o.requires:
 
-.PHONY : CMakeFiles/slide_show.dir/slide.cpp.o.requires
+.PHONY : CMakeFiles/slide_show.dir/Slideshow.cpp.o.requires
 
-CMakeFiles/slide_show.dir/slide.cpp.o.provides: CMakeFiles/slide_show.dir/slide.cpp.o.requires
-	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/slide.cpp.o.provides.build
-.PHONY : CMakeFiles/slide_show.dir/slide.cpp.o.provides
+CMakeFiles/slide_show.dir/Slideshow.cpp.o.provides: CMakeFiles/slide_show.dir/Slideshow.cpp.o.requires
+	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/Slideshow.cpp.o.provides.build
+.PHONY : CMakeFiles/slide_show.dir/Slideshow.cpp.o.provides
 
-CMakeFiles/slide_show.dir/slide.cpp.o.provides.build: CMakeFiles/slide_show.dir/slide.cpp.o
+CMakeFiles/slide_show.dir/Slideshow.cpp.o.provides.build: CMakeFiles/slide_show.dir/Slideshow.cpp.o
 
 
-CMakeFiles/slide_show.dir/main.cpp.o: CMakeFiles/slide_show.dir/flags.make
-CMakeFiles/slide_show.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slide_show.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slide_show.dir/main.cpp.o -c /Users/macbookair/CLionProjects/slide_show/main.cpp
+CMakeFiles/slide_show.dir/Launch.cpp.o: CMakeFiles/slide_show.dir/flags.make
+CMakeFiles/slide_show.dir/Launch.cpp.o: ../Launch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slide_show.dir/Launch.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slide_show.dir/Launch.cpp.o -c /Users/macbookair/CLionProjects/slide_show/Launch.cpp
 
-CMakeFiles/slide_show.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slide_show.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookair/CLionProjects/slide_show/main.cpp > CMakeFiles/slide_show.dir/main.cpp.i
+CMakeFiles/slide_show.dir/Launch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slide_show.dir/Launch.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookair/CLionProjects/slide_show/Launch.cpp > CMakeFiles/slide_show.dir/Launch.cpp.i
 
-CMakeFiles/slide_show.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slide_show.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookair/CLionProjects/slide_show/main.cpp -o CMakeFiles/slide_show.dir/main.cpp.s
+CMakeFiles/slide_show.dir/Launch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slide_show.dir/Launch.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookair/CLionProjects/slide_show/Launch.cpp -o CMakeFiles/slide_show.dir/Launch.cpp.s
 
-CMakeFiles/slide_show.dir/main.cpp.o.requires:
+CMakeFiles/slide_show.dir/Launch.cpp.o.requires:
 
-.PHONY : CMakeFiles/slide_show.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/slide_show.dir/Launch.cpp.o.requires
 
-CMakeFiles/slide_show.dir/main.cpp.o.provides: CMakeFiles/slide_show.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/slide_show.dir/main.cpp.o.provides
+CMakeFiles/slide_show.dir/Launch.cpp.o.provides: CMakeFiles/slide_show.dir/Launch.cpp.o.requires
+	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/Launch.cpp.o.provides.build
+.PHONY : CMakeFiles/slide_show.dir/Launch.cpp.o.provides
 
-CMakeFiles/slide_show.dir/main.cpp.o.provides.build: CMakeFiles/slide_show.dir/main.cpp.o
+CMakeFiles/slide_show.dir/Launch.cpp.o.provides.build: CMakeFiles/slide_show.dir/Launch.cpp.o
 
 
 # Object files for target slide_show
 slide_show_OBJECTS = \
-"CMakeFiles/slide_show.dir/slide.cpp.o" \
-"CMakeFiles/slide_show.dir/main.cpp.o"
+"CMakeFiles/slide_show.dir/Slideshow.cpp.o" \
+"CMakeFiles/slide_show.dir/Launch.cpp.o"
 
 # External object files for target slide_show
 slide_show_EXTERNAL_OBJECTS =
 
-slide_show: CMakeFiles/slide_show.dir/slide.cpp.o
-slide_show: CMakeFiles/slide_show.dir/main.cpp.o
+slide_show: CMakeFiles/slide_show.dir/Slideshow.cpp.o
+slide_show: CMakeFiles/slide_show.dir/Launch.cpp.o
 slide_show: CMakeFiles/slide_show.dir/build.make
 slide_show: /usr/local/lib/libsfml-system.dylib
 slide_show: /usr/local/lib/libsfml-window.dylib
@@ -130,8 +130,8 @@ CMakeFiles/slide_show.dir/build: slide_show
 
 .PHONY : CMakeFiles/slide_show.dir/build
 
-CMakeFiles/slide_show.dir/requires: CMakeFiles/slide_show.dir/slide.cpp.o.requires
-CMakeFiles/slide_show.dir/requires: CMakeFiles/slide_show.dir/main.cpp.o.requires
+CMakeFiles/slide_show.dir/requires: CMakeFiles/slide_show.dir/Slideshow.cpp.o.requires
+CMakeFiles/slide_show.dir/requires: CMakeFiles/slide_show.dir/Launch.cpp.o.requires
 
 .PHONY : CMakeFiles/slide_show.dir/requires
 

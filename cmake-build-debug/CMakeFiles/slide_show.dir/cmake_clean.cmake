@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/slide_show.dir/slide.cpp.o"
-  "CMakeFiles/slide_show.dir/main.cpp.o"
+  "CMakeFiles/slide_show.dir/Slideshow.cpp.o"
+  "CMakeFiles/slide_show.dir/Launch.cpp.o"
   "slide_show.pdb"
   "slide_show"
 )

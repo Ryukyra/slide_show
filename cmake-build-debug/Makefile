@@ -123,59 +123,59 @@ slide_show/fast:
 	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/build
 .PHONY : slide_show/fast
 
-main.o: main.cpp.o
+Launch.o: Launch.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-slide.o: slide.cpp.o
-
-.PHONY : slide.o
+.PHONY : Launch.o
 
 # target to build an object file
-slide.cpp.o:
-	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/slide.cpp.o
-.PHONY : slide.cpp.o
+Launch.cpp.o:
+	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/Launch.cpp.o
+.PHONY : Launch.cpp.o
 
-slide.i: slide.cpp.i
+Launch.i: Launch.cpp.i
 
-.PHONY : slide.i
+.PHONY : Launch.i
 
 # target to preprocess a source file
-slide.cpp.i:
-	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/slide.cpp.i
-.PHONY : slide.cpp.i
+Launch.cpp.i:
+	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/Launch.cpp.i
+.PHONY : Launch.cpp.i
 
-slide.s: slide.cpp.s
+Launch.s: Launch.cpp.s
 
-.PHONY : slide.s
+.PHONY : Launch.s
 
 # target to generate assembly for a file
-slide.cpp.s:
-	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/slide.cpp.s
-.PHONY : slide.cpp.s
+Launch.cpp.s:
+	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/Launch.cpp.s
+.PHONY : Launch.cpp.s
+
+Slideshow.o: Slideshow.cpp.o
+
+.PHONY : Slideshow.o
+
+# target to build an object file
+Slideshow.cpp.o:
+	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/Slideshow.cpp.o
+.PHONY : Slideshow.cpp.o
+
+Slideshow.i: Slideshow.cpp.i
+
+.PHONY : Slideshow.i
+
+# target to preprocess a source file
+Slideshow.cpp.i:
+	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/Slideshow.cpp.i
+.PHONY : Slideshow.cpp.i
+
+Slideshow.s: Slideshow.cpp.s
+
+.PHONY : Slideshow.s
+
+# target to generate assembly for a file
+Slideshow.cpp.s:
+	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/Slideshow.cpp.s
+.PHONY : Slideshow.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... slide_show"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... slide.o"
-	@echo "... slide.i"
-	@echo "... slide.s"
+	@echo "... Launch.o"
+	@echo "... Launch.i"
+	@echo "... Launch.s"
+	@echo "... Slideshow.o"
+	@echo "... Slideshow.i"
+	@echo "... Slideshow.s"
 .PHONY : help
 
 

@@ -96,16 +96,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/macbookair/CLionProjects/slide_show/main.cpp">
+		<Unit filename="/Users/macbookair/CLionProjects/slide_show/Constants.h">
 			<Option target="slide_show"/>
 		</Unit>
-		<Unit filename="/Users/macbookair/CLionProjects/slide_show/main.h">
+		<Unit filename="/Users/macbookair/CLionProjects/slide_show/Launch.cpp">
 			<Option target="slide_show"/>
 		</Unit>
-		<Unit filename="/Users/macbookair/CLionProjects/slide_show/slide.cpp">
+		<Unit filename="/Users/macbookair/CLionProjects/slide_show/Launch.h">
 			<Option target="slide_show"/>
 		</Unit>
-		<Unit filename="/Users/macbookair/CLionProjects/slide_show/slide.h">
+		<Unit filename="/Users/macbookair/CLionProjects/slide_show/Slideshow.cpp">
+			<Option target="slide_show"/>
+		</Unit>
+		<Unit filename="/Users/macbookair/CLionProjects/slide_show/Slideshow.h">
 			<Option target="slide_show"/>
 		</Unit>
 		<Unit filename="/Users/macbookair/CLionProjects/slide_show/CMakeLists.txt">

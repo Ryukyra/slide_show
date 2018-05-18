@@ -8,7 +8,7 @@ include( "${wxWidgets_USE_FILE}")
 
 set(SOURCE_FILES)
 
-add_executable(${PROJECT_NAME} slide.h slide.cpp main.cpp main.h)
+add_executable(${PROJECT_NAME} Slideshow.h Slideshow.cpp Launch.cpp Launch.h Constants.h)
 
 target_link_libraries(
         ${PROJECT_NAME}

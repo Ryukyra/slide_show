@@ -1,9 +1,6 @@
-#include "slide.h"
+#include "Slideshow.h"
 
 auto * COPY = new wxArrayString;
-const int FIRST_DELAY = 1000;
-const int SECOND_DELAY = 2000;
-const int THIRD_DELAY = 3000;
 int TIMER_ID = 235;
 int DELAY_CHOICE;
 int MUSIC_CHOICE = 1;

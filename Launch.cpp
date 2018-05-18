@@ -1,9 +1,4 @@
-//
-// Created by Arrigo Lupori on 11/05/2018.
-//
-
-
-#include "main.h"
+#include "Launch.h"
 
 IMPLEMENT_APP(MyApp)
 
