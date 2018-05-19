@@ -67,10 +67,15 @@ ImgArrange::ImgArrange(wxPanel * parent)
 void ImgArrange::OnUp(wxCommandEvent & event) {
     int i = list_box->GetSelection();
     if (i > 0 ) {
-        COPY->Insert(COPY->Item(i+1), i-1);
-        COPY->RemoveAt(i+1);
-        list_box->Insert(list_box->GetString(i),i-1);
-        list_box->Delete(i+1);
+        try {
+            COPY->Insert(COPY->Item(i + 1), i - 1);
+            COPY->RemoveAt(i + 1);
+            list_box->Insert(list_box->GetString(i), i - 1);
+            list_box->Delete(i + 1);
+        }
+        catch (const exception &){
+
+        }
     }
 
 }

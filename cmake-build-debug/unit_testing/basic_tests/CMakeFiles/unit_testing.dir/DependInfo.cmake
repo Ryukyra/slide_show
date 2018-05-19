@@ -22,8 +22,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/lib/wx/include/osx_cocoa-unicode-3.0"
   "/usr/local/include/wx-3.0"
   "/usr/local/include"
+  "../unit_testing/lib/googletest/include/Users/macbookair/CLionProjects/slide_show/unit_testing/lib/googletest"
   "../unit_testing/lib/googletest/include"
-  "../unit_testing/lib/googletest"
   )
 
 # Targets to which this target links.
