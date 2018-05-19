@@ -16,6 +16,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CheckIncludeFile.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CheckLibraryExists.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CheckSymbolExists.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Compiler/AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Compiler/AppleClang-CXX.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
@@ -23,6 +26,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Compiler/GNU.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindPackageMessage.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindPythonInterp.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindThreads.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/FindwxWidgets.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Platform/Darwin-AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Platform/Darwin-AppleClang-CXX.cmake"
@@ -39,6 +44,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeSystem.cmake"
   "../cmake_modules/FindSFML.cmake"
+  "../unit_testing/CMakeLists.txt"
+  "../unit_testing/basic_tests/CMakeLists.txt"
+  "../unit_testing/lib/CMakeLists.txt"
+  "../unit_testing/lib/googletest/CMakeLists.txt"
+  "../unit_testing/lib/googletest/cmake/internal_utils.cmake"
   )
 
 # The corresponding makefile is:
@@ -50,9 +60,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "unit_testing/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "unit_testing/basic_tests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "unit_testing/lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "unit_testing/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/slide_show.dir/DependInfo.cmake"
+  "unit_testing/basic_tests/CMakeFiles/unit_testing.dir/DependInfo.cmake"
+  "unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "unit_testing/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )

@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/macbookair/CLionProjects/slide_show/cmake-build-debug
 CMakeFiles/slide_show.dir/all:
 	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/depend
 	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target slide_show"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target slide_show"
 .PHONY : CMakeFiles/slide_show.dir/all
 
 # Include target in all.
@@ -93,6 +93,195 @@ CMakeFiles/slide_show.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/slide_show.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory unit_testing
+
+# Convenience name for "all" pass in the directory.
+unit_testing/all: unit_testing/basic_tests/all
+unit_testing/all: unit_testing/lib/all
+
+.PHONY : unit_testing/all
+
+# Convenience name for "clean" pass in the directory.
+unit_testing/clean: unit_testing/basic_tests/clean
+unit_testing/clean: unit_testing/lib/clean
+
+.PHONY : unit_testing/clean
+
+# Convenience name for "preinstall" pass in the directory.
+unit_testing/preinstall: unit_testing/basic_tests/preinstall
+unit_testing/preinstall: unit_testing/lib/preinstall
+
+.PHONY : unit_testing/preinstall
+
+#=============================================================================
+# Directory level rules for directory unit_testing/basic_tests
+
+# Convenience name for "all" pass in the directory.
+unit_testing/basic_tests/all: unit_testing/basic_tests/CMakeFiles/unit_testing.dir/all
+
+.PHONY : unit_testing/basic_tests/all
+
+# Convenience name for "clean" pass in the directory.
+unit_testing/basic_tests/clean: unit_testing/basic_tests/CMakeFiles/unit_testing.dir/clean
+
+.PHONY : unit_testing/basic_tests/clean
+
+# Convenience name for "preinstall" pass in the directory.
+unit_testing/basic_tests/preinstall:
+
+.PHONY : unit_testing/basic_tests/preinstall
+
+#=============================================================================
+# Target rules for target unit_testing/basic_tests/CMakeFiles/unit_testing.dir
+
+# All Build rule for target.
+unit_testing/basic_tests/CMakeFiles/unit_testing.dir/all: unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/all
+unit_testing/basic_tests/CMakeFiles/unit_testing.dir/all: unit_testing/lib/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f unit_testing/basic_tests/CMakeFiles/unit_testing.dir/build.make unit_testing/basic_tests/CMakeFiles/unit_testing.dir/depend
+	$(MAKE) -f unit_testing/basic_tests/CMakeFiles/unit_testing.dir/build.make unit_testing/basic_tests/CMakeFiles/unit_testing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target unit_testing"
+.PHONY : unit_testing/basic_tests/CMakeFiles/unit_testing.dir/all
+
+# Include target in all.
+all: unit_testing/basic_tests/CMakeFiles/unit_testing.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+unit_testing/basic_tests/CMakeFiles/unit_testing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 unit_testing/basic_tests/CMakeFiles/unit_testing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles 0
+.PHONY : unit_testing/basic_tests/CMakeFiles/unit_testing.dir/rule
+
+# Convenience name for target.
+unit_testing: unit_testing/basic_tests/CMakeFiles/unit_testing.dir/rule
+
+.PHONY : unit_testing
+
+# clean rule for target.
+unit_testing/basic_tests/CMakeFiles/unit_testing.dir/clean:
+	$(MAKE) -f unit_testing/basic_tests/CMakeFiles/unit_testing.dir/build.make unit_testing/basic_tests/CMakeFiles/unit_testing.dir/clean
+.PHONY : unit_testing/basic_tests/CMakeFiles/unit_testing.dir/clean
+
+# clean rule for target.
+clean: unit_testing/basic_tests/CMakeFiles/unit_testing.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory unit_testing/lib
+
+# Convenience name for "all" pass in the directory.
+unit_testing/lib/all: unit_testing/lib/googletest/all
+
+.PHONY : unit_testing/lib/all
+
+# Convenience name for "clean" pass in the directory.
+unit_testing/lib/clean: unit_testing/lib/googletest/clean
+
+.PHONY : unit_testing/lib/clean
+
+# Convenience name for "preinstall" pass in the directory.
+unit_testing/lib/preinstall: unit_testing/lib/googletest/preinstall
+
+.PHONY : unit_testing/lib/preinstall
+
+#=============================================================================
+# Directory level rules for directory unit_testing/lib/googletest
+
+# Convenience name for "all" pass in the directory.
+unit_testing/lib/googletest/all: unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/all
+unit_testing/lib/googletest/all: unit_testing/lib/googletest/CMakeFiles/gtest.dir/all
+
+.PHONY : unit_testing/lib/googletest/all
+
+# Convenience name for "clean" pass in the directory.
+unit_testing/lib/googletest/clean: unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/clean
+unit_testing/lib/googletest/clean: unit_testing/lib/googletest/CMakeFiles/gtest.dir/clean
+
+.PHONY : unit_testing/lib/googletest/clean
+
+# Convenience name for "preinstall" pass in the directory.
+unit_testing/lib/googletest/preinstall:
+
+.PHONY : unit_testing/lib/googletest/preinstall
+
+#=============================================================================
+# Target rules for target unit_testing/lib/googletest/CMakeFiles/gtest_main.dir
+
+# All Build rule for target.
+unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/all: unit_testing/lib/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/build.make unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/depend
+	$(MAKE) -f unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/build.make unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target gtest_main"
+.PHONY : unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/all
+
+# Include target in all.
+all: unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles 0
+.PHONY : unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+# Convenience name for target.
+gtest_main: unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+.PHONY : gtest_main
+
+# clean rule for target.
+unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/clean:
+	$(MAKE) -f unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/build.make unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/clean
+.PHONY : unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/clean
+
+# clean rule for target.
+clean: unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target unit_testing/lib/googletest/CMakeFiles/gtest.dir
+
+# All Build rule for target.
+unit_testing/lib/googletest/CMakeFiles/gtest.dir/all:
+	$(MAKE) -f unit_testing/lib/googletest/CMakeFiles/gtest.dir/build.make unit_testing/lib/googletest/CMakeFiles/gtest.dir/depend
+	$(MAKE) -f unit_testing/lib/googletest/CMakeFiles/gtest.dir/build.make unit_testing/lib/googletest/CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target gtest"
+.PHONY : unit_testing/lib/googletest/CMakeFiles/gtest.dir/all
+
+# Include target in all.
+all: unit_testing/lib/googletest/CMakeFiles/gtest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+unit_testing/lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 unit_testing/lib/googletest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles 0
+.PHONY : unit_testing/lib/googletest/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: unit_testing/lib/googletest/CMakeFiles/gtest.dir/rule
+
+.PHONY : gtest
+
+# clean rule for target.
+unit_testing/lib/googletest/CMakeFiles/gtest.dir/clean:
+	$(MAKE) -f unit_testing/lib/googletest/CMakeFiles/gtest.dir/build.make unit_testing/lib/googletest/CMakeFiles/gtest.dir/clean
+.PHONY : unit_testing/lib/googletest/CMakeFiles/gtest.dir/clean
+
+# clean rule for target.
+clean: unit_testing/lib/googletest/CMakeFiles/gtest.dir/clean
 
 .PHONY : clean
 

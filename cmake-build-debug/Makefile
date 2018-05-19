@@ -123,6 +123,45 @@ slide_show/fast:
 	$(MAKE) -f CMakeFiles/slide_show.dir/build.make CMakeFiles/slide_show.dir/build
 .PHONY : slide_show/fast
 
+#=============================================================================
+# Target rules for targets named unit_testing
+
+# Build rule for target.
+unit_testing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unit_testing
+.PHONY : unit_testing
+
+# fast build rule for target.
+unit_testing/fast:
+	$(MAKE) -f unit_testing/basic_tests/CMakeFiles/unit_testing.dir/build.make unit_testing/basic_tests/CMakeFiles/unit_testing.dir/build
+.PHONY : unit_testing/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/build.make unit_testing/lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f unit_testing/lib/googletest/CMakeFiles/gtest.dir/build.make unit_testing/lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
 Launch.o: Launch.cpp.o
 
 .PHONY : Launch.o
@@ -186,6 +225,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... slide_show"
+	@echo "... unit_testing"
+	@echo "... gtest_main"
+	@echo "... gtest"
 	@echo "... Launch.o"
 	@echo "... Launch.i"
 	@echo "... Launch.s"

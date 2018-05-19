@@ -1,3 +1,14 @@
 /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/macbookair/CLionProjects/slide_show/cmake-build-debug/CMakeFiles/slide_show.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/CMakeFiles/rebuild_cache.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/CMakeFiles/edit_cache.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/basic_tests/CMakeFiles/rebuild_cache.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/basic_tests/CMakeFiles/edit_cache.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/basic_tests/CMakeFiles/unit_testing.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/lib/CMakeFiles/rebuild_cache.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/lib/CMakeFiles/edit_cache.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/lib/googletest/CMakeFiles/rebuild_cache.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/lib/googletest/CMakeFiles/edit_cache.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/lib/googletest/CMakeFiles/gtest_main.dir
+/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/lib/googletest/CMakeFiles/gtest.dir
