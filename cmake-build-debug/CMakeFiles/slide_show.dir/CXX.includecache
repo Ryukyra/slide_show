@@ -29,6 +29,10 @@ wx/wx.h
 -
 wx/wrapsizer.h
 -
+iostream
+-
+list
+-
 Constants.h
 /Users/macbookair/CLionProjects/slide_show/Constants.h
 
