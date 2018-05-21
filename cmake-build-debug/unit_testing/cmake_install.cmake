@@ -35,7 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/basic_tests/cmake_install.cmake")
-  include("/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/lib/cmake_install.cmake")
+  include("/Users/macbookair/CLionProjects/slide_show/cmake-build-debug/unit_testing/lib/googletest/cmake_install.cmake")
 
 endif()
 

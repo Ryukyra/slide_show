@@ -46,7 +46,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake_modules/FindSFML.cmake"
   "../unit_testing/CMakeLists.txt"
   "../unit_testing/basic_tests/CMakeLists.txt"
-  "../unit_testing/lib/CMakeLists.txt"
   "../unit_testing/lib/googletest/CMakeLists.txt"
   "../unit_testing/lib/googletest/cmake/internal_utils.cmake"
   )
@@ -62,7 +61,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "unit_testing/CMakeFiles/CMakeDirectoryInformation.cmake"
   "unit_testing/basic_tests/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "unit_testing/lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "unit_testing/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

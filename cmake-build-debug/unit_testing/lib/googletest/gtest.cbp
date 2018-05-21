@@ -154,9 +154,6 @@
 		<Unit filename="/Users/macbookair/CLionProjects/slide_show/unit_testing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\unit_testing\"/>
 		</Unit>
-		<Unit filename="/Users/macbookair/CLionProjects/slide_show/unit_testing/lib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\unit_testing\lib\"/>
-		</Unit>
 		<Unit filename="/Users/macbookair/CLionProjects/slide_show/unit_testing/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\unit_testing\lib\googletest\"/>
 		</Unit>

@@ -101,19 +101,19 @@ clean: CMakeFiles/slide_show.dir/clean
 
 # Convenience name for "all" pass in the directory.
 unit_testing/all: unit_testing/basic_tests/all
-unit_testing/all: unit_testing/lib/all
+unit_testing/all: unit_testing/lib/googletest/all
 
 .PHONY : unit_testing/all
 
 # Convenience name for "clean" pass in the directory.
 unit_testing/clean: unit_testing/basic_tests/clean
-unit_testing/clean: unit_testing/lib/clean
+unit_testing/clean: unit_testing/lib/googletest/clean
 
 .PHONY : unit_testing/clean
 
 # Convenience name for "preinstall" pass in the directory.
 unit_testing/preinstall: unit_testing/basic_tests/preinstall
-unit_testing/preinstall: unit_testing/lib/preinstall
+unit_testing/preinstall: unit_testing/lib/googletest/preinstall
 
 .PHONY : unit_testing/preinstall
 
@@ -172,24 +172,6 @@ unit_testing/basic_tests/CMakeFiles/unit_testing.dir/clean:
 clean: unit_testing/basic_tests/CMakeFiles/unit_testing.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory unit_testing/lib
-
-# Convenience name for "all" pass in the directory.
-unit_testing/lib/all: unit_testing/lib/googletest/all
-
-.PHONY : unit_testing/lib/all
-
-# Convenience name for "clean" pass in the directory.
-unit_testing/lib/clean: unit_testing/lib/googletest/clean
-
-.PHONY : unit_testing/lib/clean
-
-# Convenience name for "preinstall" pass in the directory.
-unit_testing/lib/preinstall: unit_testing/lib/googletest/preinstall
-
-.PHONY : unit_testing/lib/preinstall
 
 #=============================================================================
 # Directory level rules for directory unit_testing/lib/googletest
